@@ -1,0 +1,14 @@
+---
+- name: Instalacao dos pacotes - Desafio02
+  apt:
+   name:
+     - vim
+     - curl
+     - telnet
+     - unzip
+     - wget
+     - net-tools
+     - htop
+     - nmap
+     - tree
+   state: present
