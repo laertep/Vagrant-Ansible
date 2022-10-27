@@ -13,6 +13,7 @@ Vagrant.configure("2") do |config|
   sudo cp -Rf /tmp/ansible/. /home/vagrant/
   sudo cp /tmp/ansible/ansible.cfg /etc/ansible/
   sudo ansible-playbook /tmp/ansible/playbook.yml
+  sudo ansible-playbook -i servidor playbook.yml
   SHELL
  
 end  
