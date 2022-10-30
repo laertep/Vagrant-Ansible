@@ -12,3 +12,13 @@
      - nmap
      - tree
    state: present
+
+- name: Adicionando nome do Host
+  hostname: 
+    name: desafio02
+
+- name: Adicionando usuario
+  user: 
+    name: laerte
+    uid: 1040
+    group: adm

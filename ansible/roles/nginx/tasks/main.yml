@@ -1,0 +1,10 @@
+---
+- name: Instalação do NGINX
+  apt: name=nginx state=latest
+  notify: Iniciando NGINX
+
+- name: Arquivo index.html
+  template: src=index.html dest=/usr/share/nginx/html
+  notify: Iniciando NGINX
+
+
