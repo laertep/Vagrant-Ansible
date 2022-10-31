@@ -4,7 +4,7 @@
   notify: Iniciando NGINX
 
 - name: Arquivo index.html
-  template: src=index.html dest=/usr/share/nginx/html
+  template: src=./index.html dest=/var/www/html
   notify: Iniciando NGINX
 
 
