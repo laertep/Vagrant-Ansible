@@ -19,4 +19,4 @@ $ Criação das roles common e nginx:
 * Role nginx - subpasta handlers - responsável para iniciar o serviço nginx;
 * Role nginx - subpasta templates - responsável pelo contéudo da página html
 
-![image](https://user-images.githubusercontent.com/44216245/201559421-b2d2c683-e6a5-4544-93db-208f2c9ef8e4.png)
+![image](https://user-images.githubusercontent.com/44216245/201559866-9baf289b-4a55-4ff0-bee8-544126218c99.png)
