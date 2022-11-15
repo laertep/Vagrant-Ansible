@@ -9,7 +9,7 @@ $ Criação da maquina VM no Virtualbox
 * Copia da pasta tmp/ansible para home/vagrant
 
 $ Criação do arquivo playbook / arquivo de configuração servidor
-* Pasta ansible/playbook.yml - arquivo responsável pela execução das roles configuraras;
+* Pasta ansible/playbook.yml - arquivo responsável pela execução das roles configuradas;
 * Pasta ansible/servidor - arquivo responsável pela localização do servidor e os acessos via ssh pelo usuário vagrant com permissionamento; 
 * Execução do comando ansible no arquivo principal vagrantfile - ansible-playbook -i servidor playbook.yml 
 
